@@ -1,6 +1,6 @@
 class Cat
   
-  attr_accessor :species
+  attr_accessor :species 
   
   def initialize(species) 
     @cat = cat 
