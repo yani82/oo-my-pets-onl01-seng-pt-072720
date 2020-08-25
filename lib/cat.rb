@@ -4,6 +4,7 @@ class Cat
   
   def initialize(species) 
     @cat = cat 
+    cat = 
   end 
     
     def 
