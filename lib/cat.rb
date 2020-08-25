@@ -8,14 +8,12 @@ class Cat
   def initialize(name, owner)
     @name = name 
     @owner = owner 
-    @aall << self 
+    @@all << self 
   end 
   
   def self.all 
-    @aall << self 
+    @@all << self 
   end 
-  
-  
   
 end
 
