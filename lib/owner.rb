@@ -18,4 +18,8 @@ class Owner
     "I am a #{self.species}."
   end 
   
+  def self.count 
+    self.all.count 
+  end 
+  
 end
