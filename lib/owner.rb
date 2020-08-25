@@ -10,6 +10,10 @@ class Owner
     @@all << self
   end 
   
+  def cats
+    Cat.all.select 
+  end 
+  
   def self.all 
     @@all 
   end 
