@@ -1,6 +1,6 @@
 class Owner
   
-  attr_reader :name :species 
+  attr_reader :name, :species 
   
   @@all = []
   
@@ -8,5 +8,4 @@ class Owner
     @name = name 
     @species = "human"
   end 
-  
 end
